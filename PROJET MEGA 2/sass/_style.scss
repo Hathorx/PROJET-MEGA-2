@@ -19,10 +19,19 @@ header {
 .logo {
 	height: 70px;
     float: left;
+    width: 100%;
 
-    img {
+    img:nth-of-type(1) {
         width: 120px;
    		margin-top: 20px;
+    }
+
+    img:nth-of-type(2) {
+    	display: none;
+    }
+
+    p {
+    	display: none;
     }
 }
 
@@ -125,6 +134,31 @@ header {
 	    font-weight: bold;
 	    font-size: 18px;
 	}
+
+	>button {
+		color: #FEB41C;
+	    border-radius: 50px;
+	    font-size: 17px;
+	    font-family: Roboto;
+	    border: 2px solid #FEB41C;
+	    font-weight: bold;
+	    padding: 17px 85px 17px 85px;
+	    background-color: transparent;
+	    cursor: pointer;
+	}
+}
+
+.nav {
+	display: none;
+}
+
+.btn {
+	text-align: center;
+	display: none;
+
+	button {
+		display: none;
+	}
 }
 
 .fac {
@@ -157,18 +191,6 @@ header {
 	    font-weight: bold;
 	    margin-bottom: 15px;
 	}
-}
-
-.top button {
-	color: #FEB41C;
-    border-radius: 50px;
-    font-size: 17px;
-    font-family: Roboto;
-    border: 2px solid #FEB41C;
-    font-weight: bold;
-    padding: 17px 85px 17px 85px;
-    background-color: transparent;
-    cursor: pointer;
 }
 
 .images {
@@ -281,6 +303,10 @@ header {
 	    	width: 184px;
 	    }
 	}
+}
+
+.nav-bar-2 {
+	display: none;
 }
 
 .content {
@@ -1123,7 +1149,7 @@ header {
 	float: left;
     margin-left: 45px;
     width: 142px;
-    border-right: 1px solid;
+    border-right: 1px solid #dfe2e2;
     padding-right: 20px;
 
     p:nth-of-type(1) {
@@ -1159,7 +1185,7 @@ header {
 	float: left;
     width: 142px;
     height: 122px;
-    border-right: 1px solid;
+    border-right: 1px solid #dfe2e2;
     padding-right: 20px;
     margin-left: 20px;
 
@@ -1198,7 +1224,7 @@ header {
 	float: left;
     width: 142px;
     height: 122px;
-    border-right: 1px solid;
+    border-right: 1px solid #dfe2e2;
     padding-right: 20px;
     margin-left: 20px;
 
@@ -1237,7 +1263,7 @@ header {
     float: left;
     width: 142px;
     height: 122px;
-    border-right: 1px solid;
+    border-right: 1px solid #dfe2e2;
     padding-right: 20px;
     margin-left: 20px;
 

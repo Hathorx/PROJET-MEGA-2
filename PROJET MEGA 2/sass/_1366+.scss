@@ -1,0 +1,170 @@
+@media only screen and (min-width: 1366px) {
+	.images {
+		width: 85%;
+
+		img {
+			float: none;
+		}
+	}
+
+	.meltdown {
+		margin-top: 10px;
+	}
+
+	.side-bar ul {
+		width: 250px;
+	}
+
+	.plan {
+		width: 35.2%;
+		float: right;
+
+		img:nth-of-type(1) {
+			width: 25.8%;
+		}
+
+		img:nth-of-type(2) {
+			width: 35px;
+		    position: relative;
+		    top: 85px;
+		    z-index: 9999;
+		    display: block;
+		    margin: 0 auto;
+		}
+
+		p {
+			margin-top: 100px;
+		}
+	}
+
+	.cache {
+		width: 25.8%;
+	}
+
+	.container {
+		width: 62%;
+	}
+
+	.contain-2 {
+		width: 80%;
+	    margin-left: auto;
+	    margin-right: auto;
+	    height: 158px;
+	}
+
+	.activity {
+		margin-left: 20px;
+		width: 15.2%;
+	}
+
+	.activity-2 {
+		width: 16%;
+	}
+
+	.activity-3 {
+		width: 15%;
+	}
+
+	.activity-4 {
+		width: 15%;
+	}
+
+	.activity-5 {
+		width: 15%;
+	}
+
+	.calend {
+		height: 110px;
+	    margin-top: 20px;
+	    width: 96%;
+	    margin-right: 0;
+	    margin-left: auto;
+	}
+
+	.sept-1 {
+	    float: left;
+	    margin-top: 15px;
+	    margin-left: 5px;
+	    border: 1px solid #6f81a1;
+	    width: 6%;
+	    border-radius: 5px;
+	    padding: 13px 10px 10px 10px;
+	}
+
+	.sept-2 {
+	    float: left;
+	    margin-top: 30px;
+	    width: 6%;
+	    margin-left: 15px;
+	}
+
+	.sept-3 {
+	    float: left;
+	    margin-top: 15px;
+	    margin-left: 15px;
+	    border: 1px solid #6f81a1;
+	    width: 6%;
+	    border-radius: 5px;
+	    padding: 13px 10px 10px 10px;
+	}
+
+	.sept-4 {
+	    float: left;
+	    margin-top: 30px;
+	    width: 6%;
+	    margin-left: 15px;
+	}
+
+	.double {
+	    float: left;
+	    border: 1px solid #6f81a1;
+	    margin-top: 15px;
+	    width: 14%;
+	    margin-left: 15px;
+	    border-radius: 5px;
+	    padding: 13px 10px 10px 10px;
+	}
+
+	.sept-5 {
+	    float: left;
+	    width: 38%;
+	    padding-right: 16px;
+	    border-right: 1px solid #dae1e3;
+	}
+
+	.sept-6 {
+	    float: left;
+	    padding-left: 11px;
+	    width: 38%;
+	    margin-left: 0;
+	}
+
+	.sept-7 {
+	    float: left;
+	    width: 6%;
+	    margin-top: 30px;
+	    margin-left: 15px;
+	}
+
+	.sept-8 {
+	    float: left;
+	    width: 6%;
+	    margin-top: 30px;
+	    margin-left: 15px;
+	}
+
+	.fleche-droite {
+	    float: left;
+	    cursor: pointer;
+	    width: 30px;
+	    height: 30px;
+	    margin-top: 28px;
+	    margin-left: 0px;
+	    border-radius: 50px;
+	    border: 1px solid #b6c3c9;
+	}
+}
+
+.nav-bar-2 {
+	display: none;
+}

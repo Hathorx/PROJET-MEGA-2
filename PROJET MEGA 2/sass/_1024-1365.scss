@@ -1,0 +1,271 @@
+@media only screen and (min-width: 1024px) and (max-width: 1365px) {
+	.side-bar {
+		display: none;
+	}
+
+	.loupe {
+		left: 265px;
+	}
+
+	.inter {
+		width: 41%;
+	}
+
+	.content {
+		width: 100%;
+	}
+
+	.nav-bar {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.info {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.calendrier {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.activites {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.discussions {
+		margin-right: auto;
+		margin-left: auto;
+	}
+
+	.images {
+		width: 91%;
+
+		img {
+			float: none;
+		}
+
+		img:nth-of-type(21) {
+			display: none;
+		}
+
+		img:nth-of-type(22) {
+			display: none;
+		}
+
+		img:nth-of-type(23) {
+			display: none;
+		}
+
+		img:nth-of-type(24) {
+			display: none;
+		}
+
+		img:nth-of-type(25) {
+			display: none;
+		}
+	}
+
+	.top {
+		height: 430px;
+	}
+
+	.plan {
+		width: 33%;
+		float: right;
+
+		img:nth-of-type(1) {
+			width: 31.5%;
+		}
+
+		img:nth-of-type(2) {
+			width: 35px;
+		    position: relative;
+		    top: 85px;
+		    z-index: 9999;
+		    display: block;
+		    margin: 0 auto;
+		}
+
+		p {
+			margin-top: 100px;
+			width: 60%;
+		}
+	}
+
+	.cache {
+		width: 31.5%;
+	}
+
+	.nav-bar {
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+		border-bottom: none;
+		background-color: #616c7e;
+		height: 60px;
+
+		ul {
+			padding-left: 30px;
+			padding-top: 20px;
+		}
+
+		li {
+			height: 20px;
+		}
+
+		li:nth-of-type(1) {
+		    color: white;
+		    font-weight: bold;
+		    font-family: Roboto;
+		    border-bottom: 4px solid white;
+		    padding-bottom: 5px;
+		    padding-right: 0;
+		    margin-right: 25px;
+		}
+
+		li:nth-of-type(2) {
+			border-right: 1px solid #b0b5be;
+			border-left: 1px solid #b0b5be;
+			padding-left: 25px;
+		}
+
+		li:nth-of-type(3) {
+			padding-left: 25px;
+			border-right: 1px solid #b0b5be;
+		}
+
+		li:nth-of-type(4) {
+			padding-left: 25px;
+			border-right: 1px solid #b0b5be;
+		}
+
+		li:nth-of-type(5) {
+			padding-left: 25px;
+		}
+	}
+
+	.contain-2 {
+		width: 95%;
+	    margin-left: auto;
+	}
+
+	.activity {
+		margin-left: 20px;
+		width: 14%;
+	}
+
+	.activity-2 {
+		width: 16%;
+	}
+
+	.activity-3 {
+		width: 14%;
+	}
+
+	.activity-4 {
+		width: 14%;
+	}
+
+	.activity-5 {
+		width: 16%;
+	}
+
+	.logo {
+		width: 600px;
+
+		img:nth-of-type(1) {
+			padding-right: 20px;
+			float: left;
+		}
+
+		img:nth-of-type(2) {
+			display: block;
+			width: 10px;
+			float: left;
+			margin-top: 28px;
+		}
+
+		p {
+			display: inline-flex;
+		    margin-top: 16px;
+		    color: white;
+		    font-size: 23px;
+		    border: 1px solid;
+		    border-radius: 50px;
+		    padding: 2px 10px 2px 10px;
+		    float: right;
+		}
+	}
+
+	.loupe {
+		p {
+			display: block;
+		}
+	}
+
+	.profile {
+		width: 390px;
+	}
+
+	.profile-section {
+		p:nth-of-type(1) {
+			font-family: Roboto;
+		}
+	}
+
+	.calend {
+		margin-right: 0;
+		width: 97%;
+	}
+
+	.sept-1 {
+		width: 6%;
+		margin-left: 0;
+	}
+
+	.sept-2 {
+		width: 6%;
+	}
+
+	.sept-3 {
+		width: 6%;
+	}
+
+	.sept-4 {
+		width: 6%;
+	}
+
+	.double {
+		width: 14%;
+	}
+
+	.sept-5 {
+		padding-right: 15px;
+		margin-left: 0;
+		width: 42%;
+	}
+
+	.sept-6 {
+		width: 37%;
+		margin-left: 10px;
+	}
+
+	.sept-7 {
+		width: 6%;
+	}
+
+	.sept-8 {
+		width: 6%;
+	}
+
+	.fleche-droite {
+		float: left;
+	}
+
+	.nav-bar-2 {
+		display: none;
+	}
+}
